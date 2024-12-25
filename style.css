@@ -3,9 +3,46 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background: rgb(121, 227, 215);
+  background: linear-gradient(
+    90deg,
+    rgba(121, 227, 215, 1) 0%,
+    rgba(51, 99, 227, 1) 100%
+  );
+}
 .strike {
   text-decoration: line-through;
 }
 span {
   cursor: pointer;
+}
+.form-group {
+  display: flex;
+  gap: 10px;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+ul li {
+  width: 75%;
+  list-style-type: none;
+  background-color: #fff;
+  padding: 0 0 0 10px;
+  margin: 10px 0;
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 7px;
+}
+ul li span {
+  background-color: #fff;
+  width: 100%;
+  color: #7f929c;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
 }
