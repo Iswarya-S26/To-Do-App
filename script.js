@@ -3,6 +3,7 @@ const todoInput = document.getElementById("inputTodo");
 const addBtn = document.getElementById("btn");
 const todoList = document.getElementById("todo-list");
 const formText = document.getElementById("formText");
+const todoForm = document.getElementById("todoForm");
 
 // GOLOBAL ARRAY FOR STORING DATA
 let todos = [];
@@ -19,6 +20,11 @@ function toggleTodos(id) {
   todos = updated_todos;
   loadTodos();
 }
+// FORM SUBMIT EVENT HANDLER
+todoForm.addEventListener("submit", (e) => {
+  e.preventDefault();
+  addTodo();
+});
 
 // ADDING NEW TODO
 function addTodo() {
