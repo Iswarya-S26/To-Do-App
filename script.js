@@ -4,6 +4,7 @@ const addBtn = document.getElementById("btn");
 const todoList = document.getElementById("todo-list");
 const formText = document.getElementById("formText");
 const todoForm = document.getElementById("todoForm");
+const clearBtn = document.getElementById("clear-btn");
 
 // GOLOBAL ARRAY FOR STORING DATA
 let todos = [];
@@ -19,6 +20,12 @@ function toggleTodos(id) {
   });
   todos = updated_todos;
   loadTodos();
+}
+
+//CLEAR INPUT
+clearBtn.addEventListener("click", clearAll);
+function clearAll() {
+  todoInput.value = "";
 }
 // FORM SUBMIT EVENT HANDLER
 todoForm.addEventListener("submit", (e) => {
