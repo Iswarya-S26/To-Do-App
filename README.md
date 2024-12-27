@@ -21,6 +21,10 @@ Welcome to the **Stylish To-Do App**, a minimal yet feature-rich task management
 _Stay organized and productive in a visually appealing way!_
 
 ---
+## 🚀 Live Demo
+
+Check out the live version of the app here: [Live Demo](https://iswarya-s26.github.io/Income-expense-Tracker/)
+---
 
 ## 🚀 **How to Use**
 1. **Add a Task**: Enter your task in the input field and hit "Add" or press Enter.
@@ -55,3 +59,16 @@ _Stay organized and productive in a visually appealing way!_
 ## 💬 **Feedback**
 We would ❤️ to hear your thoughts!  
 Feel free to reach out with feedback or suggestions to make this app even better. 🚀  
+
+---
+
+## 🔗 Connect with Me
+
+Want to discuss new opportunities? Feel free to connect with me on LinkedIn:
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=social&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/iswarya26/)
+
+---
+
+👨‍💻 Made with 💖 by <h3>Iswarya Sundarrajan<h3>
+
