@@ -27,10 +27,14 @@ Check out the live version of the app here: [Live Demo](https://iswarya-s26.gith
 ---
 
 ## 🚀 **How to Use**
-1. **Add a Task**: Enter your task in the input field and hit "Add" or press Enter.
-2. **Mark as Complete**: Check the box next to a task to mark it as completed.
-3. **Delete a Task**: Click the 🗑️ button to remove unwanted tasks.
-4. **Clear Input**: Use the "Clear" button to reset the input field.
+
+| Feature               | Description                                                                 |
+|-----------------------|-----------------------------------------------------------------------------|
+| **Add a Task**        | Enter your task in the input field and hit "Add" or press Enter.            |
+| **Mark as Complete**  | Check the box next to a task to mark it as completed.                       |
+| **Delete a Task**     | Click the 🗑️ button to remove unwanted tasks.                              |
+| **Clear Input**       | Use the "Clear" button to reset the input field.                            |
+
 
 ---
 
